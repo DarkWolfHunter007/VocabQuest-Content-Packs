@@ -1,0 +1,157 @@
+{
+  "id": "pack_science_v1",
+  "version": 1,
+  "name": "Science & Technology Pack",
+  "description": "Scientific discoveries, cosmic phenomena, and laboratory vocabulary.",
+  "category": "Science",
+  "difficulty": "Medium",
+  "isBuiltIn": false,
+  "minAppVersion": "1.0.0",
+  "words": [
+    {
+      "id": "planet",
+      "word": "PLANET",
+      "partOfSpeech": "n.",
+      "phonetic": "/ˈplæn.ɪt/",
+      "definition": "A celestial body moving in an elliptical orbit around a star.",
+      "exampleSentence": "Earth is the third planet from the sun.",
+      "difficulty": "medium",
+      "category": "Science",
+      "tags": ["astronomy", "space"]
+    },
+    {
+      "id": "photon",
+      "word": "PHOTON",
+      "partOfSpeech": "n.",
+      "phonetic": "/ˈfoʊ.tɒn/",
+      "definition": "A particle representing a quantum of light or other electromagnetic radiation.",
+      "exampleSentence": "Solar panels convert each incoming photon into electrical current.",
+      "difficulty": "medium",
+      "category": "Science",
+      "tags": ["physics", "quantum"]
+    },
+    {
+      "id": "optics",
+      "word": "OPTICS",
+      "partOfSpeech": "n.",
+      "phonetic": "/ˈɒp.tɪks/",
+      "definition": "The scientific study of sight and the behavior of light.",
+      "exampleSentence": "Precision optics are essential for modern high-power microscopes.",
+      "difficulty": "medium",
+      "category": "Science",
+      "tags": ["physics", "light"]
+    },
+    {
+      "id": "tesla",
+      "word": "TESLA",
+      "partOfSpeech": "n.",
+      "phonetic": "/ˈtɛs.lə/",
+      "definition": "The SI unit of magnetic flux density.",
+      "exampleSentence": "The MRI scanner operates with a magnetic strength of three tesla.",
+      "difficulty": "medium",
+      "category": "Science",
+      "tags": ["physics", "measurement"]
+    },
+    {
+      "id": "laser",
+      "word": "LASER",
+      "partOfSpeech": "n.",
+      "phonetic": "/ˈleɪ.zər/",
+      "definition": "A device that emits light through optical amplification based on stimulated emission.",
+      "exampleSentence": "Surgeons use a precision laser for corrective eye surgery.",
+      "difficulty": "medium",
+      "category": "Science",
+      "tags": ["technology", "optics"]
+    },
+    {
+      "id": "cosmos",
+      "word": "COSMOS",
+      "partOfSpeech": "n.",
+      "phonetic": "/ˈkɒz.mɒs/",
+      "definition": "The universe seen as a well-ordered and harmonious system.",
+      "exampleSentence": "Telescopes reveal the vast and ancient expanse of the cosmos.",
+      "difficulty": "medium",
+      "category": "Science",
+      "tags": ["astronomy", "space"]
+    }
+  ],
+  "crosswordPuzzles": [
+    {
+      "levelId": "science_cw_1",
+      "levelNumber": 1,
+      "title": "Quantum & Cosmic Rays",
+      "difficulty": "medium",
+      "gridWidth": 8,
+      "gridHeight": 8,
+      "targetWords": [
+        "PLANET",
+        "PHOTON",
+        "OPTICS",
+        "TESLA",
+        "LASER"
+      ],
+      "clues": [
+        {
+          "number": 1,
+          "direction": "across",
+          "clue": "A celestial body orbiting a star in outer space.",
+          "answer": "PLANET",
+          "startRow": 1,
+          "startCol": 1
+        },
+        {
+          "number": 1,
+          "direction": "down",
+          "clue": "A fundamental quantum particle of light.",
+          "answer": "PHOTON",
+          "startRow": 1,
+          "startCol": 1
+        },
+        {
+          "number": 2,
+          "direction": "across",
+          "clue": "The scientific study of light and vision.",
+          "answer": "OPTICS",
+          "startRow": 3,
+          "startCol": 1
+        },
+        {
+          "number": 3,
+          "direction": "down",
+          "clue": "The SI unit measuring magnetic flux density.",
+          "answer": "TESLA",
+          "startRow": 3,
+          "startCol": 3
+        },
+        {
+          "number": 4,
+          "direction": "across",
+          "clue": "A concentrated beam of amplified coherent light.",
+          "answer": "LASER",
+          "startRow": 6,
+          "startCol": 3
+        }
+      ],
+      "targetSecondsGoal": 75
+    }
+  ],
+  "wordSearchPuzzles": [
+    {
+      "levelId": "science_ws_1",
+      "levelNumber": 1,
+      "title": "Starlight & Physics Lab",
+      "difficulty": "medium",
+      "gridSize": 10,
+      "wordsToFind": [
+        "PLANET",
+        "PHOTON",
+        "OPTICS",
+        "TESLA",
+        "LASER",
+        "COSMOS"
+      ],
+      "targetSecondsGoal": 90,
+      "requiredCrosswordStars": 0
+    }
+  ]
+}

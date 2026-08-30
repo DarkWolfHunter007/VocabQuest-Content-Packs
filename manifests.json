@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pack_science_v1",
+    "version": 1,
+    "name": "Science & Technology Pack",
+    "description": "Scientific discoveries, cosmic phenomena, and laboratory vocabulary.",
+    "category": "Science",
+    "difficulty": "Medium",
+    "wordCount": 6,
+    "puzzleCount": 2,
+    "minAppVersion": "1.0.0",
+    "sizeBytes": 4530
+  },
+  {
+    "id": "pack_nature_v1",
+    "version": 1,
+    "name": "Wild Wonders & Nature Pack",
+    "description": "Flora, fauna, geographical wonders, and ecological systems.",
+    "category": "Nature",
+    "difficulty": "Easy",
+    "wordCount": 6,
+    "puzzleCount": 2,
+    "minAppVersion": "1.0.0",
+    "sizeBytes": 4550
+  },
+  {
+    "id": "pack_space_v1",
+    "version": 1,
+    "name": "Space & Astronomy Pack",
+    "description": "Deep space phenomena, planetary orbits, and interstellar vocabulary.",
+    "category": "Space",
+    "difficulty": "Medium",
+    "wordCount": 6,
+    "puzzleCount": 2,
+    "minAppVersion": "1.0.0",
+    "sizeBytes": 4600
+  }
+]
